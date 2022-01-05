@@ -97,7 +97,7 @@ func New(reader io.Reader) (*CodeTree, error) {
 			lineStart = i + 1
 			
 			lineStr := string(line)
-			strings.ReplaceAll(lineStr, "    ", "\t")
+			lineStr = strings.ReplaceAll(lineStr, "    ", "\t")
 			line = []byte(lineStr)
 			// Count indentation
 			indent := 0
