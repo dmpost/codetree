@@ -3,6 +3,7 @@ package codetree
 import (
 	"fmt"
 	"io"
+	"strings"
 	"sync"
 )
 
