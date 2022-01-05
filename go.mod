@@ -1,4 +1,4 @@
-module github.com/aerogo/codetree
+module github.com/dmpost/codetree
 
 go 1.12
 
